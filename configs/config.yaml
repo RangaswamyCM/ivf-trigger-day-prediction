@@ -1,0 +1,14 @@
+project:
+  name: ivf-trigger-day-prediction
+  version: 0.1
+
+paths:
+  raw_data: data/raw
+  processed_data: data/processed
+  reports: reports
+
+model:
+  target: trigger_day
+  metrics:
+    - MAE
+    - AUC
